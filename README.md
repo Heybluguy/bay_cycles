@@ -66,31 +66,7 @@ rspec
 * [factorybot](https://github.com/thoughtbot/factory_bot)
 * [database cleaner](https://github.com/DatabaseCleaner/database_cleaner)
 
-## Deployment
-```
-heroku create
-heroku apps
-heroku open
-rake assets:clobber
-git add .
-git commit -m "clobbers existing assets"
-
-heroku rake db:reset
-heroku rake db:migrate
-heroku rake db:seed
-```
-
 
 ## Contributing
 
 Please feel free to submit pull requests and suggestions to this repository. We would love your feedback.
-
-## Authors
-
-* [Cameron Johnson](https://github.com/slimecog)
-* [Matt Milton](https://github.com/mgmilton)
-* [Anna Royer](https://github.com/annaroyer)
-
-## Acknowledgments
-
-* To our wonderful instructors at [Turing](https://github.com/turingschool), thanks for all the laughs, thorough debugging sessions, and movie mania.
